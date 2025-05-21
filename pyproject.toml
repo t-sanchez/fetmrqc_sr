@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "fetmrqc_sr"
 version = "0.0.1"
 description = "Automated quality control of fetal brain SR MRI scans"
-authors = [{name = "XXXX", email = "anon@anon.ch"}]
+authors = [{name = "XXXX", email = "anon@anon.com"}]
 dependencies = [
     "fetal_brain_qc @ git+https://github.com/Medical-Image-Analysis-Laboratory/fetmrqc@main",
 ]
