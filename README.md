@@ -13,7 +13,7 @@ It consists of two parts.
 Given a list of SRR images listed using `qc_list_bids`, it then uses `srqc_segmentation` to compute the segmentations using BOUNTI [1] and extracts image quality metrics (IQMs) using `srqc_compute_iqms`. These IQMs can then be transformed in FetMRQC SR predictions using `srqc_inference`.
 
 If you have found this useful in your research, please cite 
-> Thomas Sanchez, Vladyslav Zalevskyi, Angeline Mihailov, Gerard Martí-Juan, Elisenda Eixarch, Andras Jakab, Vincent Dunet, Mériam Koob, Guillaume Auzias, Meritxell Bach Cuadra. (2025) **Automatic quality control in multi-centric fetal brain MRI super-resolution reconstruction.** [arXiv preprint arXiv:2503.10156](https://www.arxiv.org/abs/2503.10156)
+XXXXX
 
 ## Installing FetMRQC_SR
 To install FetMRQC SR, just create a new `conda` environment with python 3.9.0
@@ -41,8 +41,8 @@ qc_generate_reports --bids_csv <csv_path> --out_dir <output_directory> --sr
 [1] Uus, Alena U., et al. "BOUNTI: Brain vOlumetry and aUtomated parcellatioN for 3D feTal MRI." bioRxiv (2023).
 
 ## License
-Copyright 2025 Medical Image Analysis Laboratory. 
+XXXXX
 
 ## Acknowledgements
-This project was supported by the ERA-net Neuron MULTIFACT – SNSF grant [31NE30_203977](https://data.snf.ch/grants/grant/203977).
+XXXX
 
