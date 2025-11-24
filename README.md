@@ -25,7 +25,7 @@ conda create --name fetmrqc_sr python=3.9.0
 Then, simply activate the environment and install `fetmrqc_sr` and its dependencies by running `pip install -e .`
 ## Using FetMRQC_SR for inference
 To run FetMRQC_SR on your data, please follow these steps:
-1. Given a [BIDS-formatted](https://bids.neuroimaging.io/index.html) dataset, get a CSV list of the data with `qc_list_bids` (use `--help` to see the detail). You will need to use the option `--skip_masks`.
+1. Given a [BIDS-formatted](https://bids.neuroimaging.io/index.html) dataset, get a CSV list of the data with `qc_list_bids_csv` (use `--help` to see the detail). You will need to use the option `--skip_masks`.
 2. Compute brain segmentations using `srqc_segmentation` and IQMs using `srqc_compute_iqms`.
 3. Run inference using the pre-trained FetMRQC_SR model using `srqc_inference`.
 
@@ -33,7 +33,7 @@ To run FetMRQC_SR on your data, please follow these steps:
 ## Custom model building using FetMRQC SR
 ### 1. Gathering manual annotations
 The first step towards building a custom FetMRQC_SR model is gathering manual annotations. For this, we provide a code for building manual QC reports. After installing fetmrqc_sr, you will need to follow these steps to generate manual QC reports.
-1. Given a [BIDS-formatted](https://bids.neuroimaging.io/index.html) dataset, get a CSV list of the data with `qc_list_bids` (use `--help` to see the detail). You will need to use the option `--skip_masks`.
+1. Given a [BIDS-formatted](https://bids.neuroimaging.io/index.html) dataset, get a CSV list of the data with `qc_list_bids_csv` (use `--help` to see the detail). You will need to use the option `--skip_masks`.
 2. Once you have your csv file, you can generate the visual reports for manual annotations using  
 ```
 qc_generate_reports --bids_csv <csv_path> --out_dir <output_directory> --sr
