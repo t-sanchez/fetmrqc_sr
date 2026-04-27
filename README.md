@@ -1,6 +1,6 @@
 # FetMRQC SR
 
-[FetMRQC SR](https://arxiv.org/abs/2503.10156) is the super-resolution extension of FetMRQC [[paper1](https://arxiv.org/pdf/2304.05879.pdf),[paper2](https://arxiv.org/pdf/2311.04780.pdf)] is a tool for quality assessment (QA) and quality control (QC) of T2-weighted (T2w) fetal brain MR images. 
+FetMRQC SR is the super-resolution extension of FetMRQC [[paper1](https://arxiv.org/pdf/2304.05879.pdf),[paper2](https://arxiv.org/pdf/2311.04780.pdf)] is a tool for quality assessment (QA) and quality control (QC) of T2-weighted (T2w) fetal brain MR images. 
 
 It builds on top of the utilities developed in the [FetMRQC repository](https://github.com/Medical-Image-Analysis-Laboratory/fetmrqc), a tool for the QC of low-resolution T2w scans.
 
@@ -40,7 +40,7 @@ qc_generate_reports --bids_csv <csv_path> --out_dir <output_directory> --sr
 ```
 3. You can then run `qc_generate_index` to generate an index file to easily navigate the reports.
 
-**Note.** We recommend following our protocol for manual quality rating. It is available on [Zenodo](https://zenodo.org/records/15696638).
+**Note.** We recommend following our protocol for manual quality rating. It is available on Zenodo.
 
 If you find this useful or use it in your research, please cite our manual quality rating paper [2] as well as the Zenodo protocol [3].
 
@@ -53,12 +53,12 @@ Once your manual ratings are done, you then train a custom QC model as follows.
 ## References
 [1] Uus, Alena U., et al. "BOUNTI: Brain vOlumetry and aUtomated parcellatioN for 3D feTal MRI." bioRxiv (2023).
 
-[2] Sanchez, T., et al. "Assessing data quality on fetal brain MRI reconstruction: a multi-site and multi-rater study." International Workshop on Preterm, Perinatal and Paediatric Image Analysis. Cham: Springer Nature Switzerland, 2024.
+[2] XXXX
 
-[3] Bach Cuadra, M., et al. "Protocol for the Quality Rating of 3D Super-resolution Reconstruction in Fetal Brain MRI", 20 août 2025, p. 46‑56, https://doi.org/10.5281/zenodo.15696638.
+[3] XXX
 
 ## License
-Copyright 2025 Medical Image Analysis Laboratory. 
+XXXX
 
 ## Acknowledgements
 This project was supported by the grant XXXXX.
