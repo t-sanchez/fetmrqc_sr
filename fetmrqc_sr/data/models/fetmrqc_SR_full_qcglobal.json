@@ -1,5 +1,5 @@
 {
-    "dataset": "/home/tsanchez/Documents/mial/repositories/fetmrqc_sr/fetmrqc_sr/data/QC_IQMs.csv",
+    "dataset": "/home/XXX/Documents/mial/repositories/fetmrqc_sr/fetmrqc_sr/data/QC_IQMs.csv",
     "timestamp": "220425_145840",
     "iqms": [
         "centroid",
